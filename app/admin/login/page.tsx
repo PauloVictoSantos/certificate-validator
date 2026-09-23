@@ -11,10 +11,6 @@ export default async function PaginaLogin({ searchParams }: { searchParams: Prom
         <Logo />
 
         <div className="flex flex-col items-start">
-          <div className="flex items-center gap-2 text-xs font-semibold tracking-widest text-red-500">
-            <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
-            ESPAÇO SEGURO
-          </div>
 
           <h1 className="mt-4 text-4xl font-bold leading-[1.1] text-foreground">
             Bem-vindo

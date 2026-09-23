@@ -5,12 +5,10 @@ type Props = { nome?: string; curso?: string; data?: string }
 export function HeroVisual({ nome = 'Nome do aluno', curso = 'Nome do curso', data = '' }: Props) {
   return (
     <div className="relative flex items-center justify-center py-12">
-      {/* Orbits */}
-      <div className="absolute h-[420px] w-[420px] rounded-full border border-border/60" />
-      <div className="absolute h-[320px] w-[320px] rounded-full border border-border/60" />
+      <div className="absolute h-105 w-105 rounded-full border border-border/60" />
+      <div className="absolute h-80 w-[320px] rounded-full border border-border/60" />
 
-      {/* Certificate card */}
-      <div className="relative z-10 w-[320px] rotate-[3deg] rounded-2xl border border-border bg-white p-6 shadow-xl">
+      <div className="relative z-10 w-[320px] rotate-3 rounded-2xl border border-border bg-white p-6 shadow-xl">
         <div className="flex items-center justify-between">
           <div className="flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted-foreground">
             <ShieldCheck className="h-4 w-4" />
@@ -41,11 +39,10 @@ export function HeroVisual({ nome = 'Nome do aluno', curso = 'Nome do curso', da
 
         <div className="mt-6 flex items-center justify-between">
           <span className="text-xs text-muted-foreground">{data}</span>
-          <span className="font-serif text-sm italic text-blue-700">Verifica</span>
+          <span className="text-sm text-blue-700">Verifica</span>
         </div>
       </div>
 
-      {/* Floating chips */}
       <div className="absolute right-2 top-6 z-20 flex items-center gap-2 rounded-xl border border-border bg-white px-3 py-2 shadow-md">
         <BadgeCheck className="h-4 w-4 text-blue-600" />
         <span className="flex flex-col leading-tight">

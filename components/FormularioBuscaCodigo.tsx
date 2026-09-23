@@ -41,7 +41,6 @@ export function FormularioBuscaCodigo() {
             autoComplete="off"
             className="flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
           />
-          <span className="shrink-0 text-xs text-muted-foreground">8 caracteres</span>
         </div>
 
         <button

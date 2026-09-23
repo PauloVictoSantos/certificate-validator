@@ -8,7 +8,7 @@ export function PassosComoFunciona() {
   return (
     <section
       id="como-funciona"
-      className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-8 border-t border-border px-6 py-12 sm:grid-cols-3"
+      className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-8 border-t border-border px-6 py-12 sm:grid-cols-3"
     >
       {PASSOS.map(p => (
         <div key={p.n}>

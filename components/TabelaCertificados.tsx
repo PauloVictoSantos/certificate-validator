@@ -29,7 +29,7 @@ export function TabelaCertificados(p: Props) {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-3">
-        <div className="flex flex-1 min-w-[200px] items-center gap-2 rounded-xl border border-input bg-white px-3 py-2">
+        <div className="flex flex-1 min-w-50 items-center gap-2 rounded-xl border border-input bg-white px-3 py-2">
           <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
           <input
             placeholder="Buscar por nome ou código"
